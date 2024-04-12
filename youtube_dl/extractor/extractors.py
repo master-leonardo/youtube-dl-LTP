@@ -159,7 +159,6 @@ from .businessinsider import BusinessInsiderIE
 from .buzzfeed import BuzzFeedIE
 from .byutv import BYUtvIE
 from .c56 import C56IE
-from .caffeine import CaffeineTVIE
 from .callin import CallinIE
 from .camdemy import (
     CamdemyIE,
@@ -358,7 +357,6 @@ from .ellentube import (
 from .elpais import ElPaisIE
 from .embedly import EmbedlyIE
 from .engadget import EngadgetIE
-from .epidemicsound import EpidemicSoundIE
 from .eporner import EpornerIE
 from .eroprofile import EroProfileIE
 from .escapist import EscapistIE
@@ -383,6 +381,7 @@ from .fc2 import (
     FC2EmbedIE,
 )
 from .fczenit import FczenitIE
+from .filemoon import FileMoonIE
 from .fifa import FifaIE
 from .filmon import (
     FilmOnIE,
@@ -443,7 +442,6 @@ from .gamespot import GameSpotIE
 from .gamestar import GameStarIE
 from .gaskrank import GaskrankIE
 from .gazeta import GazetaIE
-from .gbnews import GBNewsIE
 from .gdcvault import GDCVaultIE
 from .gedidigital import GediDigitalIE
 from .generic import GenericIE
@@ -1621,7 +1619,15 @@ from .xnxx import XNXXIE
 from .xstream import XstreamIE
 from .xtube import XTubeUserIE, XTubeIE
 from .xuite import XuiteIE
-from .xvideos import XVideosIE
+from .xvideos import (
+    XVideosIE,
+    XVideosCategoryIE,
+    XVideosChannelIE,
+    XVideosPlaylistIE,
+    XVideosRelatedIE,
+    XVideosSearchIE,
+    XVideosSearchKeyIE,
+)
 from .xxxymovies import XXXYMoviesIE
 from .yahoo import (
     YahooIE,
